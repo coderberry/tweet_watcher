@@ -6,6 +6,8 @@ Simple plugin to display tweets that show up with a given search term. Example c
 
   <%= tweet_watcher("your_search_term_here") %>
   
+  <%= tweet_watcher("teachmetocode", { :title => 'Teach Me To Code', :width => 225, :height => 200, :link_color => '#00f' })
+  
 === Available Options
 
 * :title - Title to display above tweets
