@@ -1,0 +1,12 @@
+= Tweet Watcher
+
+Simple plugin to display tweets that show up with a given search term. Example can be found at http://www.teachmetocode.com
+
+== Example
+
+  <%= tweet_watcher("teachmetocode", { :width => 225, :height => 300 }) %>
+
+
+Twitter Javascript and CSS Copyright (C) 2009 Twitter via Dustin Diaz (dustin@twitter.com)
+
+Tweet Watcher Plugin Copyright (c) 2009 Eric Berry, released under the MIT license
