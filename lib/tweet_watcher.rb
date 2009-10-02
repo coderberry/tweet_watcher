@@ -4,8 +4,8 @@ module TweetWatcherHelper
     options[:subject]    = ''     if options[:subject].blank?
     options[:width]      = 200    if options[:width].blank?
     options[:height]     = 400    if options[:height].blank?
-    options[:text_color] = '#39c' if options[:text_color].blank?
-    options[:link_color] = '#444' if options[:link_color].blank?
+    options[:text_color] = '#444' if options[:text_color].blank?
+    options[:link_color] = '#39c' if options[:link_color].blank?
     ret = <<-EOF
     <div class="twtr-widget" id="twtr-search-widget"></div>
     <script src="http://widgets.twimg.com/j/1/widget.js"></script>
